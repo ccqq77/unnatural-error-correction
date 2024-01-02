@@ -1,4 +1,4 @@
-# Unnatural Error Correction: GPT-4 Can Almost Perfectly Handle Scrambled Text
+# Unnatural Error Correction: GPT-4 Can Almost Perfectly Handle Unnatural Scrambled Text
 
 Code for the paper [Unnatural Error Correction: GPT-4 Can Almost Perfectly Handle Scrambled Text](https://arxiv.org/abs/2311.18805).
 
