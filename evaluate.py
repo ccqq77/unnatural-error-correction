@@ -21,7 +21,10 @@ def main():
     print("scramble: " + args.scramble)
     print_now()
 
-    filename = args.output_dir + "/" + args.task + "/" + args.dataset + "/" + args.scramble + "/" + args.method + "/" + args.model
+    if args.method == "few-shot-cot":
+        filename = args.output_dir + "/" + args.task + "/" + args.dataset + "/" + args.method + "/" + "demo_random_" + args.demo_question_scramble_rate + "/" + args.scramble + "/" + args.model
+    else:
+        filename = args.output_dir + "/" + args.task + "/" + args.dataset + "/" + args.method + "/" + args.scramble + "/" + args.model
     os.makedirs(os.path.dirname(filename), exist_ok=True)
 
     if args.task == "scrambled_rec":
@@ -225,7 +228,7 @@ def parse_arguments():
         )
 
     parser.add_argument(
-        "--output_dir", type=str, default="../output", help="output directory"
+        "--output_dir", type=str, default="./output", help="output directory"
         )
 
     parser.add_argument(

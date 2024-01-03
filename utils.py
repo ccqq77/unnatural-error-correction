@@ -587,7 +587,7 @@ def answer_cleansing(args, pred, choice=None):
             pred = pred.split("Answer: ")[0]
             pred = pred.split("Question: ")[0]
             pred = pred.split("Choices: ")[0]
-            pred = pred.split("Dialogue: ")[0]
+            pred = pred.split("Evidence: ")[0]
             pred_abcd = re.findall(r"A|B|C|D", pred)
             if choice != None:
                 # sometimes, models output the text of choice rather than ABCD
