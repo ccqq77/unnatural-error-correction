@@ -63,7 +63,7 @@ def main():
                     
                 output_line["recovered"] = pred_lst_clean
                 output_line["input"] = x
-                output_line["ouput"] = pred_lst
+                output_line["output"] = pred_lst
                 output_line = [dict(zip(output_line, t)) for t in zip(*output_line.values())]
                 for j in output_line:
                     output_json = json.dumps(j)
