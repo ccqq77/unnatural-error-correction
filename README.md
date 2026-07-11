@@ -3,12 +3,23 @@
 Code for the paper [Unnatural Error Correction: GPT-4 Can Almost Perfectly Handle Unnatural Scrambled Text](https://arxiv.org/abs/2311.18805).
 
 ```bibtex
-@inproceedings{cao2023unnatural,
-  title={Unnatural Error Correction: GPT-4 Can Almost Perfectly Handle Unnatural Scrambled Text},
-  author={Cao, Qi and Kojima, Takeshi and Matsuo, Yutaka and Iwasawa, Yusuke},
-  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
-  pages={8898--8913},
-  year={2023}
+@inproceedings{cao-etal-2023-unnatural,
+    title = "Unnatural Error Correction: {GPT}-4 Can Almost Perfectly Handle Unnatural Scrambled Text",
+    author = "Cao, Qi  and
+      Kojima, Takeshi  and
+      Matsuo, Yutaka  and
+      Iwasawa, Yusuke",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.550/",
+    doi = "10.18653/v1/2023.emnlp-main.550",
+    pages = "8898--8913"
 }
 ```
 
